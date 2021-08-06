@@ -1,0 +1,199 @@
+* {/*no asterisco entra todo lo que va a ser repetido no site*/
+    padding: 0; /*para adicionar elementos dejar padding y margen cero pq al adicionar elementos estos pueden tener margen y padding*/
+    margin: 0;
+    box-sizing: border-box; /*suma margen y padding si se adicionan y engloba como un todo*/
+    font-family: 'Roboto Slab', serif;
+}
+
+ul {
+    list-style: none;
+    /*font-style: italic;*/
+    font-size: 25px;
+    /*font-weight: 500;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+/* classes */ 
+
+.container{
+    text-align: center;
+}
+
+.name h1{
+    color: #8B0000;
+    /*color: #ff7ba0*/
+    font-size: 80px;
+}
+
+.name h5{
+    color: #8B0000;
+    /*color: #ff7ba0*/
+    font-size: 20px;
+}
+
+#arrow{
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+}
+
+/*keyframes llama la animation del arrow para que pierda visibilidad y regresar a mostrarse*/
+@keyframes blink {
+    to{
+        visibility: hidden;
+    }    
+}
+
+#animation{
+    transition: 300ms;
+}
+
+.rotate{
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.active{
+    display: block !important;
+}
+
+body{
+    color: rgba(0, 0, 0, 0.87);
+    /*background-color: #fafafa*/
+    /*background:url(./pexels-photo-3847498.jpeg) no-repeat center center fixed;*/
+    background-color: transparent;
+    /*background-size: cover;*/
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    /*border-bottom: 15px ridge black;*/
+    margin-bottom: 45px;
+}
+
+header ul{
+    display: flex;
+}
+
+header div{
+    display: flex;
+    /*flex-basis: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;*/
+}
+
+header div img{
+    max-width: 250px;
+    /*width: auto;
+    height: auto;*/
+}
+
+header ul li{
+    padding:50px ;
+}
+
+header ul li a{
+    transition: 300ms;
+}
+
+header ul li a:hover{
+    color:#F07797;
+    text-decoration: underline;
+}
+
+#about p{
+    max-width: 600px;
+    margin:0 auto;
+}
+
+#site p{
+    border-top: thick double #8B0000;
+    padding: 50px;
+    text-align: justify;
+}
+
+.form{
+    width: 40%;
+    margin:0 auto;
+    margin-top: 30px;
+    padding: 100px;
+}
+
+.form input{
+    width: 50%;
+    padding: 5px 10px;
+    /*border: none;*/
+    border-color: #8B0000;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.form button{
+    width: 15%;
+    padding: 5px 10px;
+    background:linear-gradient(to right, #F07797 50%, #8B0000 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #FFF7F3;
+    font-weight: 500;
+    /*border:none;*/
+    border-color: #8B0000;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form button:hover{
+    background-position: left bottom;
+}
+
+/*responsividade*/
+@media only screen and (max-width: 768px){
+    .form{
+    width: 100%;
+   }
+}
+
+@media only screen and (max-width: 480px){ /*480px para celulares*/
+    header{
+        font-size: 25px;
+    }
+    .name h1{
+        font-size: 30px;
+    }
+    .name h5{
+        font-size: 15px;
+    }
+    #about p{
+        max-width: 80%;
+        text-align: justify;
+    }
+}
+
+/*para colocar borda nas imagens
+.flex div{
+    border: 1px solid;
+}*/
+
+/*.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex div{
+    flex-basis: 100%;
+}
+
+.flex img{
+max-width: 250px
+/*width: auto;
+height: 100%;
+}*/

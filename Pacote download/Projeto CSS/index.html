@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Andrea Garaycochea | PM</title>
+</head>
+<body>
+   
+    <header>
+        <ul>
+            <li>
+                <a target="_blank" href="http://quieroserproductmanager.blogsiebs.com/">blog</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://github.com/quieroserpm">github</a>
+            </li>
+            <li>
+                <a target="_blank" href="mailto:quieroserproductmanager@gmail.com">contato</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://wa.me/31996632547">whatsapp</a>
+            </li>
+        </ul>
+        <div>
+            <img src="./spotify.webp" alt="" width="auto" height="auto">
+            <img src="./twitter.webp" alt="" width="auto" height="auto">
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>andrea garaycochea</h1>
+                <h5>Product Manager</h5>
+            </div>
+            <div onclick="displayAbout()"id="arrow">
+                <i id="animation" class="fas fa-sort-down"></i>
+            </div>
+            <div style="display: none" id="about">
+                <p>¡Olá! sou Andrea, criadora deste site e sou product manager.</p>
+            </div>
+            <div class="form">
+                <div>
+                    <p>Deixe seu contato!</p>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="seu melhor email :)">
+                    <button>enviar!</button>
+                </form>
+            </div>
+            <div id="site">
+                <p>Esse site é sobre música, leitura e product management ou sobre tudo isso ao mesmo tempo.
+                É um lugar criado para contar as coisas. Esse site é para todxs.</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function displayAbout(){
+            var arrow=document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+            var display=document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
+
+    
+</body>
+</html>
