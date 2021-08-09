@@ -125,7 +125,7 @@ header ul li a:hover{
 }
 
 .flex img{
-max-width: 500px
+max-width: 500px;
 /*width: auto;
 height: 100%;*/
 }
