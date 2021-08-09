@@ -125,7 +125,7 @@ header ul li a:hover{
 }
 
 .flex img{
-max-width: 450px;
+max-width: auto;
 /*width: auto;
 height: 100%;*/
 }
@@ -136,6 +136,15 @@ h2{
 
 p{
     width:auto;
+}
+
+.flex h2{
+    transition: 300ms;
+}
+
+.flex h2:hover{
+    color:#F07797;
+    /*text-decoration: underline;*/
 }
 
 #site p{
