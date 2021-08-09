@@ -121,7 +121,7 @@ header ul li a:hover{
 }
 
 .flex div{
-    display: flex;
+    /*display: flex;*/
     border: 0.5px solid #A5AE9D; /*para colocar borda nas imagens*/
     margin: 15px;
     flex-basis: 100%;
@@ -133,13 +133,13 @@ max-width: 450;
 height: 100%;*/
 }
 
-h2{
+/*h2{
     width:auto;
 }
 
 p{
     width:auto;
-}
+}*/
 
 .flex h2{
     transition: 300ms;
