@@ -119,6 +119,7 @@ header ul li a:hover{
 }
 
 .flex div{
+    display: flex;
     border: 1px solid #A5AE9D; /*para colocar borda nas imagens*/
     margin: 15px;
     flex-basis: 100%;
