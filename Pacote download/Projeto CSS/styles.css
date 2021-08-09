@@ -131,13 +131,13 @@ max-width: 450;
 height: 100%;*/
 }
 
-h2{
+/*h2{
     width:auto;
 }
 
 p{
     width:auto;
-}
+}*/
 
 .flex h2{
     transition: 300ms;
