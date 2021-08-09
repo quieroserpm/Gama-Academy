@@ -124,6 +124,7 @@ header ul li a:hover{
 }
 
 .flex div{
+    border: 1px rgba(0,0,0,0);
     margin: 15px;
     flex-basis: 100%;
 }
