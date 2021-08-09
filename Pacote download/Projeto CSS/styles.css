@@ -115,6 +115,28 @@ header ul li a:hover{
     margin:0 auto;
 }
 
+/*para colocar borda nas imagens
+.flex div{
+    border: 1px solid;
+}*/
+
+*.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex div{
+    border: 1px #BEA6A0;
+    margin: 15px;
+    flex-basis: 100%;
+}
+
+.flex img{
+max-width: 300px
+/*width: auto;
+height: 100%;*/
+}
+
 #site p{
     border-top: thick double #8B0000;
     padding: 50px;
@@ -125,7 +147,7 @@ header ul li a:hover{
     width: 40%;
     margin:0 auto;
     margin-top: 30px;
-    padding: 100px;
+    padding-bottom: 20px;
 }
 
 .form input{
@@ -169,6 +191,12 @@ header ul li a:hover{
     header{
         font-size: 25px;
     }
+    header ul li{
+    padding: 10px;
+    }
+    ul{
+        font: size 16px;
+    }
     .name h1{
         font-size: 30px;
     }
@@ -181,22 +209,3 @@ header ul li a:hover{
     }
 }
 
-/*para colocar borda nas imagens
-.flex div{
-    border: 1px solid;
-}*/
-
-/*.flex{
-    display: flex;
-    justify-content: space-between;
-}
-
-.flex div{
-    flex-basis: 100%;
-}
-
-.flex img{
-max-width: 250px
-/*width: auto;
-height: 100%;
-}*/
