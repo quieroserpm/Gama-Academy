@@ -115,24 +115,19 @@ header ul li a:hover{
     margin:0 auto;
 }
 
-/*para colocar borda nas imagens
-.flex div{
-    border: 1px solid;
-}*/
-
 *.flex{
     display: flex;
     justify-content: space-between;
 }
 
 .flex div{
-    border: 1px #BEA6A0;
+    border: 1px #BEA6A0;/*para colocar borda nas imagens*/
     margin: 15px;
     flex-basis: 100%;
 }
 
 .flex img{
-max-width: 300px
+max-width: 500px
 /*width: auto;
 height: 100%;*/
 }
