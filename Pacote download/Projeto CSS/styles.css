@@ -113,7 +113,7 @@ header ul li a:hover{
     margin:0 auto;
 }
 
-*.flex{
+.flex{
     display: flex;
     justify-content: space-between;
 }
