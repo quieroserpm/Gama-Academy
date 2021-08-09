@@ -113,6 +113,26 @@ header ul li a:hover{
     margin:0 auto;
 }
 
+/*para colocar borda nas imagens
+.flex div{
+    border: 1px solid;
+}*/
+
+*.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex div{
+    flex-basis: 100%;
+}
+
+.flex img{
+max-width: 250px
+/*width: auto;
+height: 100%;*/
+}
+
 #site p{
     border-top: thick double #8B0000;
     padding: 50px;
@@ -185,22 +205,3 @@ header ul li a:hover{
     }
 }
 
-/*para colocar borda nas imagens
-.flex div{
-    border: 1px solid;
-}*/
-
-/*.flex{
-    display: flex;
-    justify-content: space-between;
-}
-
-.flex div{
-    flex-basis: 100%;
-}
-
-.flex img{
-max-width: 250px
-/*width: auto;
-height: 100%;
-}*/
