@@ -167,6 +167,12 @@ header ul li a:hover{
     header{
         font-size: 25px;
     }
+/*    header ul li{
+
+    }*/
+    ul{
+        font: size 16px;
+    }
     .name h1{
         font-size: 30px;
     }
