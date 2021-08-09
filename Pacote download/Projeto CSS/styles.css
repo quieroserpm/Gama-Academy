@@ -121,13 +121,14 @@ header ul li a:hover{
 }
 
 .flex div{
-    border: 1px solid #A5AE9D; /*para colocar borda nas imagens*/
+    display: flex;
+    border: 0.5px solid #A5AE9D; /*para colocar borda nas imagens*/
     margin: 15px;
     flex-basis: 100%;
 }
 
 .flex img{
-max-width: auto;
+max-width: 450;
 /*width: auto;
 height: 100%;*/
 }
@@ -146,7 +147,7 @@ p{
 
 .flex h2:hover{
     color:#F07797;
-    /*text-decoration: underline;*/
+    text-decoration: underline;
 }
 
 #site p{
